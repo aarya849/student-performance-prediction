@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  height: 100vh;          /* full screen */
+  display: flex;
+  align-items: center;    /* vertical center */
+  justify-content: center;/* horizontal center */
+}
+
+.app-container {
+  max-width: 1000px;
+  text-align: center;  /* center heading */
+}
+
+/* heading */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  white-space: nowrap;  /* keep all words in one line */
+}
+
+/* form card */
+form {
+  background: #fff;
+  max-width: 400px;
+  margin: 0 auto;   /* center inside container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* form labels */
+label {
+  display: block;
+  margin-bottom: 6px; /* less gap */
+  color: #555;
+  font-size: 14px;
+}
+
+/* inputs */
+input {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* button */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4f46e5;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4338ca;
+}
